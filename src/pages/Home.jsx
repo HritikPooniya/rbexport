@@ -98,6 +98,7 @@ const Home = () => {
       // if (val.section === "mission") setMission(val.content);
       // if (val.section === "chili") setChilli(val.content);
       // if (val.section === "banana") setBanana(val.content);
+      return 0;
     });
   }, [data]);
 
