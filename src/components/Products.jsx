@@ -22,7 +22,7 @@ const Products = () => {
                 <div className="slider-img">
                   <a href="/">
                     <img
-                      src="assets/img2.jpg"
+                      src="https://rbcorporationexport.netlify.app/assets/img2.jpg"
                       width="100%"
                       alt="TROPICAL FRUITS"
                     />
@@ -46,7 +46,7 @@ const Products = () => {
                 <div className="slider-img">
                   <a href=" ">
                     <img
-                      src="assets/img1.jpg"
+                      src="https://rbcorporationexport.netlify.app/assets/img1.jpg"
                       width="100%"
                       alt="FRUIT PURE PIECES"
                       
@@ -71,7 +71,7 @@ const Products = () => {
                 <div className="slider-img">
                   <a href="bakesafe-fruit-puree-pieces.html">
                     <img
-                      src="assets/chili.jpg"
+                      src="https://rbcorporationexport.netlify.app/assets/chili.jpg"
                       width="100%"
                       alt="BAKESAFE<sup>®</sup> FRUIT PUREE PIECES"
                     />

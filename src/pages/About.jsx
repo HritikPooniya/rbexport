@@ -34,7 +34,7 @@ const About = () => {
   return (
     <>
       <div>
-        <img src="assets/hakkimizda3.jpg" alt="" width="100%" />
+        <img src="https://rbcorporationexport.netlify.app/assets/hakkimizda3.jpg" alt="" width="100%" />
         <div id="hakkimizda" class="p-80">
           <div class="page-content">
             <div class="container">

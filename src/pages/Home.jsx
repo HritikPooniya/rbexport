@@ -166,7 +166,7 @@ const Home = () => {
                   <div className="about-content">
                     <div className="about-img">
                       <a href="/" style={{ textDecoration: "none" }}>
-                        <img src="assets/8104-rd.jpg" alt="" />
+                        <img src="https://rbcorporationexport.netlify.app/assets/8104-rd.jpg" alt="" />
                       </a>
                       <div className="about-desc v3 absolute">
                         <h3>
@@ -185,7 +185,7 @@ const Home = () => {
                     <div className="about-img">
                       <a href="/" style={{ textDecoration: "none" }}>
                         <img
-                          src="assets/4559-9ae558da-11f8-48a5-9a9c-1243fff553b1.jpg"
+                          src="https://rbcorporationexport.netlify.app/assets/4559-9ae558da-11f8-48a5-9a9c-1243fff553b1.jpg"
                           alt=""
                         />
                       </a>
@@ -205,7 +205,7 @@ const Home = () => {
                   <div className="about-content">
                     <div className="about-img">
                       <a href="/" style={{ textDecoration: "none" }}>
-                        <img src="assets/4524-zamaninda-teslimat.jpg" alt="" />
+                        <img src="https://rbcorporationexport.netlify.app/assets/4524-zamaninda-teslimat.jpg" alt="" />
                       </a>
                       <div className="about-desc v3 absolute">
                         <h3>
@@ -223,7 +223,7 @@ const Home = () => {
                   <div className="about-content">
                     <div className="about-img">
                       <a href="/ " style={{ textDecoration: "none" }}>
-                        <img src="assets/8112-kolay-ulasim-kare.jpg" alt="" />
+                        <img src="https://rbcorporationexport.netlify.app/assets/8112-kolay-ulasim-kare.jpg" alt="" />
                       </a>
                       <div className="about-desc v3 absolute">
                         <h3>
@@ -241,7 +241,7 @@ const Home = () => {
                   <div className="about-content">
                     <div className="about-img">
                       <a href="/" style={{ textDecoration: "none" }}>
-                        <img src="assets/3734-2889-inavasyon-kare.jpg" alt="" />
+                        <img src="https://rbcorporationexport.netlify.app/assets/3734-2889-inavasyon-kare.jpg" alt="" />
                       </a>
                       <div className="about-desc v3 absolute">
                         <h3>
@@ -258,7 +258,7 @@ const Home = () => {
                   <div className="about-content">
                     <div className="about-img">
                       <a href="/  " style={{ textDecoration: "none" }}>
-                        <img src="assets/8881-2889-inavasyon-kare.jpg" alt="" />
+                        <img src="https://rbcorporationexport.netlify.app/assets/8881-2889-inavasyon-kare.jpg" alt="" />
                       </a>
                       <div className="about-desc v3 absolute">
                         <h3>

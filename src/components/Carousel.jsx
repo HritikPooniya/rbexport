@@ -61,7 +61,7 @@ const Carousel = () => {
        
               <div class="carousel-item active">
                 <img
-                  src='/assets/bananas.jpg'
+                  src='https://rbcorporationexport.netlify.app/assets/bananas.jpg'
                   className="d-block w-100"
                   alt="Banana"
                 />
@@ -86,7 +86,7 @@ const Carousel = () => {
           
           <div class="carousel-item active">
             <img
-              src="/assets/chilies.jpg"
+              src="https://rbcorporationexport.netlify.app/assets/chilies.jpg"
               className="d-block w-100"
               alt="/assets/logo.png"
             />

@@ -127,7 +127,7 @@ rbcindia.corp@gmail.com
                         <Link to="/">
                           <img
                             // className="ms-5"
-                              src="assets/logo.png"
+                              src="https://rbcorporationexport.netlify.app/assets/logo.png"
                             width={"60rem"}
                             alt="Mateks - Natural Ingredients From The Best Fruits in Türkiye"
                           />

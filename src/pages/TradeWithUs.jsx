@@ -37,7 +37,7 @@ const TradeWithUs = () => {
             <div className="row">
               <div className="col-md-5">
                 <img
-                  src="assets/8104-rd.jpg"
+                  src="https://rbcorporationexport.netlify.app/assets/8104-rd.jpg"
                   alt=""
                   //   width="100%"
                   className="wow bounceInLeft"
@@ -83,7 +83,7 @@ const TradeWithUs = () => {
             <div className="row">
               <div className="col-md-5 hidden-md hidden-lg hidden-xl">
                 <img
-                  src="assets/3734-2889-inavasyon-kare.jpg"
+                  src="https://rbcorporationexport.netlify.app/assets/3734-2889-inavasyon-kare.jpg"
                   width="100%"
                   className="wow bounceInRight"
                   alt=""
@@ -104,7 +104,7 @@ const TradeWithUs = () => {
               </div>
               <div className="col-md-5 hidden-sm hidden-xs">
                 <img
-                  src="assets/3734-2889-inavasyon-kare.jpg"
+                  src="https://rbcorporationexport.netlify.app/assets/3734-2889-inavasyon-kare.jpg"
                   width="100%"
                   className="wow bounceInRight"
                   alt=""
@@ -133,7 +133,7 @@ const TradeWithUs = () => {
             <div className="row">
               <div className="col-md-5">
                 <img
-                  src="assets/4524-zamaninda-teslimat.jpg"
+                  src="https://rbcorporationexport.netlify.app/assets/4524-zamaninda-teslimat.jpg"
                   width="100%"
                   alt=""
                   className="wow bounceInLeft"
@@ -179,7 +179,7 @@ const TradeWithUs = () => {
             <div className="row">
               <div className="col-md-5 hidden-md hidden-lg hidden-xl">
                 <img
-                  src="assets/8112-kolay-ulasim-kare.jpg"
+                  src="https://rbcorporationexport.netlify.app/assets/8112-kolay-ulasim-kare.jpg"
                   width="100%"
                   className="wow bounceInRight"
                   alt=""
@@ -199,7 +199,7 @@ const TradeWithUs = () => {
               </div>
               <div className="col-md-5 hidden-sm hidden-xs">
                 <img
-                  src="assets/8112-kolay-ulasim-kare.jpg"
+                  src="https://rbcorporationexport.netlify.app/assets/8112-kolay-ulasim-kare.jpg"
                   width="100%"
                   className="wow bounceInRight"
                   style={{

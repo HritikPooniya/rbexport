@@ -13,7 +13,7 @@ const Footer = () => {
                   <div className="title">
                     <img
                       className="mx-auto"
-                      src="assets/logo.png"
+                      src="https://rbcorporationexport.netlify.app/assets/logo.png"
                       alt="Mateks - Natural Ingredients From The Best Fruits in Türkiye"
                       width="50%"
                       style={{
@@ -146,7 +146,7 @@ const Footer = () => {
                 <p className="align-right">
                   <Link to="/" style={{textDecoration:'none'}} target="_blank">
                     <img
-                      src="assets/logo.png"
+                      src="https://rbcorporationexport.netlify.app/assets/logo.png"
                       width="45"
                       style={{ float: "right" }}
                       alt=""
