@@ -20,6 +20,7 @@ const Footer = () => {
   useEffect(() => {
     data?.map((val) => {
       if (val.section === "about") setAbout(val.content); 
+      return 0;
     });
   }, [data]);
   return (
