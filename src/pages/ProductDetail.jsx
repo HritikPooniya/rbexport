@@ -15,7 +15,7 @@ const ProductDetail = () => {
 
   useEffect(() => {
     axios
-      .get(`/product/${id}`)
+      .get(`https://rbbackend.onrender.com/product/${id}`)
       .then((response) => {
         setProduct(response.data);
       })
