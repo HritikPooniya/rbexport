@@ -15,7 +15,7 @@ const Home = () => {
 
   const [product, setProduct] = useState(null);
   const [data, setData] = useState(null);
-  // const [about, setAbout] = useState("");
+  const [about, setAbout] = useState("");
   // const [vision, setVision] = useState("");
   // const [mission, setMission] = useState("");
   // const [chilli, setChilli] = useState("");
@@ -91,15 +91,15 @@ const Home = () => {
   console.log({ product });
   console.log({ data });
 
-  // useEffect(() => {
-  //   data?.map((val) => {
-  //     // if (val.section === "about") setAbout(val.content);
-  //     // if (val.section === "vision") setVision(val.content);
-  //     // if (val.section === "mission") setMission(val.content);
-  //     // if (val.section === "chili") setChilli(val.content);
-  //     // if (val.section === "banana") setBanana(val.content);
-  //   });
-  // }, [data]);
+  useEffect(() => {
+    data?.map((val) => {
+      if (val.section === "about") setAbout(val.content);
+      // if (val.section === "vision") setVision(val.content);
+      // if (val.section === "mission") setMission(val.content);
+      // if (val.section === "chili") setChilli(val.content);
+      // if (val.section === "banana") setBanana(val.content);
+    });
+  }, [data]);
 
   return (
     <>
@@ -112,11 +112,7 @@ const Home = () => {
             <div className="row">
               <h2>ABOUT US</h2>
               <article>
-                Welcome to Olive Trading FZ-LLC, your trusted partner in the
-                dynamic world of international trade. With our roots firmly
-                planted in the vibrant heart of United Arab Emirtes, we have
-                emerged as a beacon of excellence in the export and import
-                business.
+                {about}
               </article>
               <div
                 className="col-md-6 triggerAnimation animated fadeInRight mt-1"

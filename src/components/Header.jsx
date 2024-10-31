@@ -123,7 +123,7 @@ rbcindia.corp@gmail.com
                     role="navigation"
                   >
                     <div className="navbar-header">
-                      <div className="logo mt-3 bg-white ms-5">
+                      <div className="logo mt-2 bg-white ms-5">
                         <Link to="/">
                           <img
                             // className="ms-5"
@@ -143,7 +143,7 @@ rbcindia.corp@gmail.com
                         <li>
                         <Link
   to="/"
-  className="mt-0 pt-0"
+  className="my-0 py-0"
   style={{ textDecoration: "none", fontSize: "14px" }}
 >
   Home
@@ -159,7 +159,7 @@ rbcindia.corp@gmail.com
                           </a> */}
                           <Link
   to="/about"
-  className="mt-0 pt-0"
+  className="my-0 py-0"
   style={{ textDecoration: "none", fontSize: "14px" }}
 >
   About us
@@ -175,7 +175,7 @@ rbcindia.corp@gmail.com
                           </a> */}
                           <Link
   to="/product"
-  className="mt-0 pt-0"
+  className="my-0 py-0"
   style={{ textDecoration: "none", fontSize: "14px" }}
 >
   Our products
@@ -191,20 +191,20 @@ rbcindia.corp@gmail.com
                           </a> */}
                           <Link
   to="/trade"
-  className="mt-0 pt-0"
+  className="my-0 py-0"
   style={{ textDecoration: "none", fontSize: "14px" }}
 >
   Trade with us
 </Link>
                         </li>
                         <li className="">
-                          <a
+                          <Link
                             href="/#faq"
-                            className="mt-0 pt-0"
+                            className="my-0 pt-0"
                             style={{ textDecoration: "none", fontSize: "14px" }}
                           >
                             FAQ
-                          </a>
+                          </Link>
                           {/* <Link
   to="/#faq"
   className="mt-0 pt-0"
@@ -223,7 +223,7 @@ rbcindia.corp@gmail.com
                           </a> */}
                           <Link
   to="/contact"
-  className="mt-0 pt-0"
+  className="my-0 py-0"
   style={{ textDecoration: "none", fontSize: "14px" }}
 >
   Enquire Now
@@ -233,7 +233,7 @@ rbcindia.corp@gmail.com
                          <li className="">
                          <a
                            href="/"
-                           className="mt-0 pt-0"
+                           className="my-0 py-0"
                            style={{
                              textDecoration: "none",
                              fontSize: "14px",

@@ -1,7 +1,27 @@
-import React from "react";
+import axios from "axios";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+  const [data, setData] = useState(null);
+  const [about, setAbout] = useState("");
+
+  useEffect(() => {
+    axios
+      .get("https://rbbackend.onrender.com/api/content")
+      .then((response) => {
+        setData(response.data);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }, []);
+
+  useEffect(() => {
+    data?.map((val) => {
+      if (val.section === "about") setAbout(val.content); 
+    });
+  }, [data]);
   return (
     <div>
       <div id="footer-wrapper" className="footer-dark">
@@ -28,11 +48,7 @@ const Footer = () => {
 
                   <div className="clearfix"></div>
                   <p>
-                    Welcome to RB CORP Trading FZ-LLC, your trusted partner in the
-                    dynamic world of international trade. With our roots firmly
-                    planted in the vibrant heart of United Arab Emirtes, we have
-                    emerged as a beacon of excellence in the export and import
-                    business.
+                    {about}
                   </p>
                 </li>
               </ul>
