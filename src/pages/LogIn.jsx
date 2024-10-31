@@ -10,6 +10,8 @@ const LogIn = () => {
   const [name, setName] = useState("");
   const [pass, setPass] = useState("");
 
+  console.log({isLogIn})
+
   const logIn = () => {
     const user = {
       email: name,

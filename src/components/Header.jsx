@@ -1,6 +1,7 @@
 import React, { useContext, useEffect } from "react";
 import "../styles/header.css";
 import MyContext from "../components/Context";
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const { isLogIn, setIsLogIn } = useContext(MyContext);
@@ -29,26 +30,40 @@ const Header = () => {
                 <ul id="quick-links" className="pb-2">
                   <li>
                     <i className="fa fa-phone me-2"></i>
-                    <a
+                    {/* <a
                       href="tel:+91 94361 12013"
-                      onclick="gtag_report_conversion(+91 94361 12013)"
+                      // onclick="gtag_report_conversion(+91 94361 12013)"
                       style={{ textDecoration: "none", fontSize: "14px" }}
                     >
                       +91 94361 12013
-                    </a>
+                    </a> */}
+                    <Link
+  to="tel:+91 94361 12013"
+  className="mt-0 pt-0"
+  style={{ textDecoration: "none", fontSize: "14px" }}
+>
++91 94361 12013
+</Link>
                   </li>
 
                   <li>
                     <i className="fa fa-envelope me-2"></i>
-                    <a
+                    {/* <a
                       href="mailto:rbcindia.corp@gmail.com"
                       style={{ textDecoration: "none", fontSize: "14px" }}
                     >
                       rbcindia.corp@gmail.com
-                    </a>
+                    </a> */}
+                    <Link
+  to="mailto:rbcindia.corp@gmail.com"
+  className="mt-0 pt-0"
+  style={{ textDecoration: "none", fontSize: "14px" }}
+>
+rbcindia.corp@gmail.com
+</Link>
                   </li>
                   <li className="hidden-sm hidden-xs">
-                    <a
+                    {/* <a
                       href="/contact"
                       style={{
                         backgroundColor: "rgb(25, 81, 155)",
@@ -59,7 +74,14 @@ const Header = () => {
                       }}
                     >
                       Contact us
-                    </a>
+                    </a> */}
+                    <Link
+  to="/contact"
+  className="mt-0 pt-0"
+  style={{ textDecoration: "none", fontSize: "14px" }}
+>
+  Contact us
+</Link>
                   </li>
                 </ul>
               </div>
@@ -70,18 +92,18 @@ const Header = () => {
               </div> */}
                 <ul id="quick-links" className="clearfix social-ul mb-0">
                   <li>
-                    <a href="" target="_blank" style={{ marginBottom: "0px" }}>
+                    <a href="/" target="_blank" style={{ marginBottom: "0px" }}>
                       <i className="fa fa-facebook"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="" target="_blank">
+                    <a href="/" target="_blank">
                       <i className="fa fa-instagram"></i>
                     </a>
                   </li>
 
                   <li>
-                    <a href="" target="_blank">
+                    <a href="/" target="_blank">
                       <i className="fa fa-linkedin"></i>
                     </a>
                   </li>
@@ -102,14 +124,14 @@ const Header = () => {
                   >
                     <div className="navbar-header">
                       <div className="logo mt-3 bg-white ms-5">
-                        <a href="/">
+                        <Link to="/">
                           <img
                             // className="ms-5"
-                            src="assets/logo.png"
+                              src="assets/logo.png"
                             width={"60rem"}
                             alt="Mateks - Natural Ingredients From The Best Fruits in Türkiye"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
 
@@ -119,40 +141,61 @@ const Header = () => {
                         style={{ display: "flex", flexDirection: "row" }}
                       >
                         <li>
-                          <a
-                            href="/"
-                            className="mt-0 pt-0"
-                            style={{ textDecoration: "none", fontSize: "14px" }}
-                          >
-                            Home
-                          </a>
+                        <Link
+  to="/"
+  className="mt-0 pt-0"
+  style={{ textDecoration: "none", fontSize: "14px" }}
+>
+  Home
+</Link>
                         </li>
                         <li className="">
-                          <a
+                          {/* <a
                             href="/about"
                             className="mt-0 pt-0"
                             style={{ textDecoration: "none", fontSize: "14px" }}
                           >
                             About us
-                          </a>
+                          </a> */}
+                          <Link
+  to="/about"
+  className="mt-0 pt-0"
+  style={{ textDecoration: "none", fontSize: "14px" }}
+>
+  About us
+</Link>
                         </li>
                         <li className="">
-                          <a
+                          {/* <a
                             href="/product"
                             className="mt-0 pt-0"
                             style={{ textDecoration: "none", fontSize: "14px" }}
                           >
                             Our products
-                          </a>
+                          </a> */}
+                          <Link
+  to="/product"
+  className="mt-0 pt-0"
+  style={{ textDecoration: "none", fontSize: "14px" }}
+>
+  Our products
+</Link>
                         </li>
                         <li className="">
-                          <a
+                          {/* <a
                             href="/trade"
                             className="mt-0 pt-0"
                             style={{ textDecoration: "none", fontSize: "14px" }}
                           >
                             Trade with us
-                          </a>
+                          </a> */}
+                          <Link
+  to="/trade"
+  className="mt-0 pt-0"
+  style={{ textDecoration: "none", fontSize: "14px" }}
+>
+  Trade with us
+</Link>
                         </li>
                         <li className="">
                           <a
@@ -162,15 +205,29 @@ const Header = () => {
                           >
                             FAQ
                           </a>
+                          {/* <Link
+  to="/#faq"
+  className="mt-0 pt-0"
+  style={{ textDecoration: "none", fontSize: "14px" }}
+>
+  FAQ
+</Link> */}
                         </li>
-                        <li className="/contact">
-                          <a
+                        <li className="">
+                          {/* <a
                             href="contact"
                             className="mt-0 pt-0"
                             style={{ textDecoration: "none", fontSize: "14px" }}
                           >
                             Enquire Now
-                          </a>
+                          </a> */}
+                          <Link
+  to="/contact"
+  className="mt-0 pt-0"
+  style={{ textDecoration: "none", fontSize: "14px" }}
+>
+  Enquire Now
+</Link>
                         </li>
                         {isLogIn && (
                          <li className="">

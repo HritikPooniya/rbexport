@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -44,22 +45,22 @@ const Footer = () => {
 
                   <ul>
                     <li>
-                      <a href=" " style={{textDecoration:'none'}}>R&D Support</a>
+                      <Link to="/" style={{textDecoration:'none'}}>R&D Support</Link>
                     </li>
                     <li>
-                      <a href=" " style={{textDecoration:'none'}}>Tailor Made Production</a>
+                      <Link to="/" style={{textDecoration:'none'}}>Tailor Made Production</Link>
                     </li>
                     <li>
-                      <a href=" " style={{textDecoration:'none'}}>Delivery on time</a>
+                      <Link to="/" style={{textDecoration:'none'}}>Delivery on time</Link>
                     </li>
                     <li>
-                      <a href=" " style={{textDecoration:'none'}}>Accessible Support team</a>
+                      <Link to="/" style={{textDecoration:'none'}}>Accessible Support team</Link>
                     </li>
                     <li>
-                      <a href=" " style={{textDecoration:'none'}}>Innovation</a>
+                      <Link to="/" style={{textDecoration:'none'}}>Innovation</Link>
                     </li>
                     <li>
-                      <a href=" " style={{textDecoration:'none'}}>Technology</a>
+                      <Link to="/" style={{textDecoration:'none'}}>Technology</Link>
                     </li>
                   </ul>
                 </li>
@@ -73,10 +74,10 @@ const Footer = () => {
 
                   <ul>
                     <li>
-                      <a href=" " style={{textDecoration:'none'}}>G4 Banana</a>
+                      <Link to="/" style={{textDecoration:'none'}}>G4 Banana</Link>
                     </li>
                     <li>
-                      <a href=" " style={{textDecoration:'none'}}>Green Chilli</a>
+                      <Link to="/" style={{textDecoration:'none'}}>Green Chilli</Link>
                     </li>
                   </ul>
                 </li>
@@ -98,34 +99,34 @@ const Footer = () => {
                   </a>
                   <br />
                   <br />
-                  <a href=" " style={{textDecoration:'none'}}>JOIN US ON SOCIAL</a>
+                  <Link to="/" style={{textDecoration:'none'}}>JOIN US ON SOCIAL</Link>
 
                   <br />
                   <ul className="footer-social-icons">
                     <li>
-                      <a
-                        href=" "
+                      <Link
+                        to="/"
                         target="_blank"
                         className="fa fa-facebook"
                         style={{textDecoration:'none'}}
-                      ></a>
+                      ></Link>
                     </li>
                     <li>
-                      <a
-                        href=" "
+                      <Link
+                        to="/"
                         target="_blank"
                         className="fa fa-instagram"
                         style={{textDecoration:'none'}}
-                      ></a>
+                      ></Link>
                     </li>
 
                     <li>
-                      <a
-                        href=" "
+                      <Link
+                        to="/"
                         target="_blank"
                         className="fa fa-linkedin"
                         style={{textDecoration:'none'}}
-                      ></a>
+                      ></Link>
                     </li>
                   </ul>
                 </li>
@@ -143,23 +144,23 @@ const Footer = () => {
 
               <div className="col-md-6">
                 <p className="align-right">
-                  <a href=" " style={{textDecoration:'none'}} target="_blank">
+                  <Link to="/" style={{textDecoration:'none'}} target="_blank">
                     <img
                       src="assets/logo.png"
                       width="45"
                       style={{ float: "right" }}
                       alt=""
                     />
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>
           </div>
         </div>
 
-        <a href="#" className="scroll-up" style={{textDecoration:'none'}}>
+        <Link to="/#" className="scroll-up" style={{textDecoration:'none'}}>
           Scroll
-        </a>
+        </Link>
       </div>
     </div>
   );

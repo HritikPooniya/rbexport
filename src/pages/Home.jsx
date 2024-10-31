@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Carousel from "../components/Carousel";
 import Products from "../components/Products";
-import PhoneCode from "../components/PhoneCode";
 
 const Home = () => {
   const [index, setIndex] = useState(-1);
