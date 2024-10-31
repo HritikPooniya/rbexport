@@ -248,6 +248,22 @@ rbcindia.corp@gmail.com
                          </a>
                        </li>
                         )}
+
+                         {!isLogIn && (
+                         <li className="">
+                         <Link
+                           to="/logIn"
+                           className="my-0 py-0"
+                           style={{
+                             textDecoration: "none",
+                             fontSize: "14px",
+                           }}
+                        
+                         >
+                           Log In
+                         </Link>
+                       </li>
+                        )}
                       </ul>
                     </div>
                   </nav>
